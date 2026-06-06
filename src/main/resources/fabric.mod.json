@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autocartmod",
+  "version": "1.0.0",
+  "name": "AutoCart Mod",
+  "description": "AutoCart TNT Minecart combat module with ClickGUI for Fabric 1.21",
+  "authors": ["AutoCartMod"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autocartmod.client.AutoCartMod"
+    ]
+  },
+  "mixins": [
+    "autocartmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
